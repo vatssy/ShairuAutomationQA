@@ -36,7 +36,7 @@ public class loginSite extends methodConfig
 		clickOnElement(loginBtn);
 		
 		Assert.assertFalse(getURL().contains("user/list"),"User enter not valid credential and taken logged in.");
-		log.info("User entered valid credential and redirected into User List screen.");		
+		log.info("User entered valid credential and redirected into User List screen."); // 		
 	}
 	
 	@Test(priority = 2)
